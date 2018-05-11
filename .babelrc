@@ -1,0 +1,15 @@
+// vim: set ft=javascript:
+{
+  "presets": ["react-native"],
+  "plugins": [],
+  "env": {
+    "test": {
+      "plugins": [
+        "transform-runtime",
+        ["istanbul", {
+            "include": ["src/**/*.js"]
+        }]
+      ]
+    }
+  }
+}
