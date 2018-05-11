@@ -1,4 +1,9 @@
 # react-native-custom-forms
+
+[![npm version](https://badge.fury.io/js/react-native-custom-forms.svg)](https://badge.fury.io/js/react-native-custom-forms)
+[![Build Status](https://travis-ci.com/medicinaesolutions/react-native-custom-forms.svg?branch=master)](https://travis-ci.com/medicinaesolutions/react-native-custom-forms)
+[![Coverage Status](https://coveralls.io/repos/github/medicinaesolutions/react-native-custom-forms/badge.svg)](https://coveralls.io/github/medicinaesolutions/react-native-custom-forms)
+
 Form helper for React Native apps with custom UI
 
 ## Getting started
