@@ -64,12 +64,12 @@ export default class Input extends Component {
     return newValue;
   }
 
-  updateValue(value) {
+  async updateValue(value) {
     const newValue = this.getTransformedValue(value);
-    this.setState({
+    await new Promise((resolve, reject) => this.setState({
       dirty: true,
       value: newValue
-    });
+    }, resolve));
 
     if (this.props.form && this.props.form.updateValue && this.props.name) {
       this.props.form.updateValue(
